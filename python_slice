@@ -1,0 +1,26 @@
+# Aplicando slice (slicing)
+
+fruta = 'Abacate'
+
+# index 0123456
+
+#como imprimir parte do index da variável
+
+print(fruta[3])
+print('  ')
+
+# 3ª letra é C
+
+print(fruta[2:6])
+
+print('  ')
+print('  ')
+print('  ')
+
+valor = 99.75
+valor = str(valor)
+# index 01234
+
+print(valor[3:6])
+print(valor[2:])
+print(valor[:3])
