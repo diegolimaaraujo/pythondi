@@ -1,0 +1,19 @@
+# Calculando a idade com um input (básico)
+
+# Identificando categoria das variáveis * print(type)
+
+'''ano_nascimento = input('Em que ano você nasceu? R: ')
+print(type(ano_nascimento))
+idade = 2022
+print(type(idade))'''
+
+ano_nascimento = input('Em que ano você nasceu? R: ')
+idade = 2022 - int(ano_nascimento)
+
+print("")
+print('Sua idade é:')
+print('')
+print(idade)
+print(' anos.')
+
+# Outras formas de registro e retorno são apresentadas nos arquivos em níveis mais avançados.
