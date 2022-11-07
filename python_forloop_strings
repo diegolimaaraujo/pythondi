@@ -1,0 +1,14 @@
+# For Loop - Usando Strings
+
+for letra in 'Google':
+  print(letra)
+  print('  ')
+
+for letra in 'Diego':
+  print(letra)
+
+palavra = 'espetacular'
+print('  ')
+
+for letra in palavra:
+  print(f' {letra} está dentro da palavra inserida')
