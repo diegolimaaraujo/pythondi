@@ -1,0 +1,113 @@
+# Operações Matemáticas com Python
+
+calculo = 2 + 2 * 3
+
+# primeiro * e / depois a + e -
+
+print(' ')
+print('Resultado de um calculo sem formatação :')
+print(' ')
+print(calculo)
+print(' ')
+
+# Adicionar o Parênteses (para direcionar)
+
+calculo2 = (2 + 2) * 3
+
+print(' ')
+print('Resultado de um calculo com parênteses:')
+print(' ')
+print(calculo2)
+print(' ')
+
+# Casos de valores exponenciais (usar ** )
+
+calculo3 = 2 ** 3
+
+print(' ')
+print('Resultado de um calculo com exponenciais ** :')
+print(' ')
+print(calculo3)
+print(' ')
+
+# Operadores de comparação
+
+print(' ')
+print(' ')
+print('COMPARADORES')
+
+'''
+== Equal
+!= Not equal
+> Greater than
+< Less than
+>= Greater than or equal to
+<= Less than or equal to
+'''
+
+print(' ')
+print('1- Resultado com == igual :')
+
+operadores = 10 == 10
+
+print(' ')
+print(operadores)
+
+print(' ')
+print('2- Resultado com == diferença :')
+
+operadores2 = 'Banana' == 'banana'
+
+print(' ')
+print(operadores2)
+
+print(' ')
+print('3- Resultado com !=  :')
+
+operadores3 = 'Banana' != 'banana'
+
+print(' ')
+print(operadores3)
+
+print(' ')
+print('4- Resultado com != igual :')
+
+operadores4 = 'Banana' != 'Banana'
+
+print(' ')
+print(operadores4)
+
+print(' ')
+print('5- Resultado com >  :')
+
+operadores5 = 2 > 1
+
+print(' ')
+print(operadores5)
+
+print(' ')
+print('6- Resultado com <  :')
+
+operadores6 = 2 > 1
+
+print(' ')
+print(operadores6)
+
+#OPERADORES DE ATRIBUIÇÃO (assignment operators)
+
+
+print(' ')
+print(' ')
+print('ASSIGNMENT OPERATORS')
+print(' ')
+
+x = 10
+#Praticidade -> x += 5 = x= x+5
+#x += 5
+#x -= 5
+#x *= 5
+#x /= 5
+#x **= 5
+x %= 3
+
+print(x)
