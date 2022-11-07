@@ -1,0 +1,78 @@
+'''
+Autor: Diego L Araújo
+Data: 01/10/22
+Versão: V1
+
+'''
+
+# Código simples - print
+
+print("Olá, estudante Nível Básico em Python!")
+print('Tudo bem?')
+print('Aqui você encontra processos básicos da codificação em Python.')
+
+# Código simples - print
+print("Aproveite a jornada!")
+
+'''
+Acima, estão alguns 
+códigos básicos em Python.
+
+Use comentários para indicar as sesssões.
+
+'''
+
+'''
+Data Types (informações gerais)
+
+Text                        Numbers
+
+String STR ("Texto")        Integer : Inteiro (1,2,3,...)              
+                            Float : Fração (3.5, 9.7 ...)
+
+                            * Precisa passar o parâmetro para o Python
+
+                Boolean Type:
+
+                Bool : true / false
+'''
+'''
+Variables
+
+Contêiner para dados... 
+
+Variável (número):
+_________
+|    2   |  - Integer
+|________|
+
+Variável (texto):
+_________
+|  Olá   |  - String
+|________|
+
+'''
+
+print('  ')
+print('  ')
+print('  ')
+
+x = 2
+print(x)
+
+print('  ')
+print('  ')
+print('  ')
+
+print(x+x+x)
+
+print('  ')
+print('  ')
+print('  ')
+
+y = 'Olá, Python!'
+print (y)
+
+print('  ')
+print('  ')
+print('  ')
