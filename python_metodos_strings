@@ -1,0 +1,58 @@
+# Métodos para strings
+
+mensagem = '    eu adoro comida Caseira'
+
+print('1- Sem método:')
+print(' ')
+print(mensagem)
+
+#para usar Métodos usaremos -  . 
+
+#2
+print(' ')
+print(' ')
+print('2- Com método "lowercase":')
+print(' ')
+print(mensagem.lower())
+
+#3
+print(' ')
+print(' ')
+print('3- Com método "uppercase":')
+print(' ')
+print(mensagem.upper())
+
+#4
+print(' ')
+print(' ')
+print('4- Com método "capitalize":')
+print(' ')
+print(mensagem.capitalize())
+
+#5
+print(' ')
+print(' ')
+print('5- Com método "find":')
+print(' ')
+print(mensagem.find('Caseira'))
+
+#6
+print(' ')
+print(' ')
+print('6- Com método "replace a por e":')
+print(' ')
+print(mensagem.replace('a','e'))
+
+#7
+print(' ')
+print(' ')
+print('7- Com método "replace a por e":')
+print(' ')
+print(mensagem.replace('Caseira','feita em casa'))
+
+#8 (tira espaços antes da letra 1ª)
+print(' ')
+print(' ')
+print('7- Com método "strip :')
+print(' ')
+print(mensagem.strip())
