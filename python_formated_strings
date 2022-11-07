@@ -1,0 +1,24 @@
+# Utilizando Formated String
+
+# O Marcos Silva é um excelente [Programador]
+
+nome = 'Marcos'
+sobrenome = 'Silva'
+profissao = 'Programador'
+
+texto = 'O '+ nome + ' ' + sobrenome + ' é  um excelente ' + '[' + profissao + ']' + '.'
+
+print ('Versão básica - trabalhosa:')
+print(' ')
+print(texto)
+
+print(' ')
+print(' ')
+
+texto2 = f'O {nome} {sobrenome} é um excelente [{profissao}].'
+
+print ('Versão melhorada - simplificada:')
+print(' ')
+print(texto2)
+
+#
