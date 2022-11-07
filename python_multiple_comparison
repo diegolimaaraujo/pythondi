@@ -1,0 +1,16 @@
+# Multiple Comparison Operators
+
+valor = input('Qual é o valor do produto? R: ')
+valor = int(valor)
+
+#o operador múltiplo reduz a condicional a uma frase, use o máximo que puder
+
+if 20 <= valor < 40:
+  print(' ')
+  print('Produto Aceito!')
+else: 
+  print(' ')
+  print('Produto Recusado!')
+
+print(' ')
+print('Análise Concluída.')
