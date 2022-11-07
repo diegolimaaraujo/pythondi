@@ -1,0 +1,17 @@
+# Usando variáveis em exposição e distribuição básica de dados
+
+# O Diego tem 28 anos de idade e mora na cidade de São Paulo
+
+# Variáveis: nome, idade e cidade
+
+nome = str ('Diego')
+idade = int (28)
+idade = str(idade)
+cidade = str ('São Paulo')
+
+# Imprimindo BIO: nome, idade e cidade
+
+print('O ' + nome + ' tem ' + idade + ' anos de idade e mora em ' + cidade + '.')
+
+#  Str com Str: converta com str(variável desejada)
+  #Variáveis são combináveis apenas com outras da mesma categoria ( str com str, int com int...)
