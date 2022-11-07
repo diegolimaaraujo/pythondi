@@ -1,0 +1,27 @@
+#Logical Operators (Operadores lógicos)
+
+print('Análise para Financiamento - Banco DLA')
+print(' ')
+
+renda = input('Qual é a renda do solicitante? R: ')
+renda = int(renda)
+
+if renda >= 5000:
+  renda_acima_5mil = True
+else:
+  renda_acima_5mil = False
+
+print(' ')
+nome = input('O nome está limpo? R: ')
+
+if nome == str('sim'):
+  nome_limpo = True
+else:
+  nome_limpo = False
+
+if renda_acima_5mil and nome_limpo:
+  print(' ')
+  print('Financiamento aprovado.')
+else: 
+  print(' ')
+  print('Financiamento negado.')
